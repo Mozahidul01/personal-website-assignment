@@ -1,0 +1,316 @@
+/*===== Basic Style =====*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+section{
+    height: 450px;
+    padding-bottom: 120px;
+}
+
+/*===== Common Style =====*/
+
+h1{
+    font-size: 50px;
+    font-weight: 600;   
+    line-height: 60px;
+    margin: 150px 0px 0px 0px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 70px 0px 0px 0px;   
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 700; 
+    margin: 70px 0px 30px 0px;
+    text-align: center;
+}
+
+h4{
+    font-size: 40px;
+    font-weight: 700; 
+    margin: 70px 0px 0px 0px;
+    text-align: center;
+}
+
+h5{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 35px 0px 10px 0px;
+}
+
+h6{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0px 25px 0px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #9b9b9b;
+    padding: 25px 20px 25px 0px;
+}
+
+
+/*========================================================================*/
+
+
+/*===== Hero Section=====*/
+
+.top-section{
+    background-image: url(../image/header-bg.png);
+    background-repeat: no-repeat;
+}
+
+/*===== Hero Section Content =====*/
+
+.hero-content{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.highlight{
+    color: #6255DB;
+    font-weight: 800;
+}
+
+.hero-button{
+    color: #ffffff;
+    background-image: linear-gradient(45deg, #4979E1, #812AD7);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 8px 25px;
+    border-style: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-button:hover{
+    background-image: linear-gradient(45deg, #0BF0C7, #35A2F2); 
+}
+
+/*===== Hero Section Image =====*/
+
+.hero-image{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-top: 3%;
+}
+
+.hero-image img{
+    width: 100%;
+}
+
+
+/*========================================================================*/
+
+/*===== Biography Section=====*/
+
+.biodata-section{
+    background-image: url(../image/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+/*===== Biography Section Image =====*/
+
+
+.biodata-image{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-top: 3%;
+}
+
+.biodata-image img{
+    width: 100%;
+}
+
+/*===== Biography Section Content =====*/
+
+.biodata-content{
+    width: 40%;
+    float: left;
+    padding-left: 6%;
+    padding-top: 3.5%;
+    vertical-align: middle;
+}
+
+.biodata-button{
+    color: #ffffff;
+    background-image: linear-gradient(45deg, #FF1570, #FF3081);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 23px;
+    border-style: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.biodata-button:hover{
+    background-image: linear-gradient(45deg, #FFA92E, #FFCD1A);
+}
+
+
+/*========================================================================*/
+
+/*===== Experience Section=====*/
+
+.experience-section{
+    background-image: url(../image/footer-bg.png);
+    background-repeat: no-repeat;
+}
+
+.experience-content{
+    width: 38%;
+    float: left;
+    margin: 3% 0 0 6%;
+    padding: 0px 15px 0px 20px;
+    box-shadow: 10px 10px 40px #A9A9A9;
+    border-radius: 5px;
+    height: 300px;
+    background-color: #f9fdfb;
+}
+
+.experience-details{
+    padding: 5px 2px 0px 0px;
+    font-weight: 400;
+}
+
+.orange-highlight{
+    color: #FF9E33;
+}
+
+#full-stack{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, #ecec23, #cd7f32);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, #0000FF, #00FFFF);
+    border-image-slice: 1;
+}
+
+
+
+/*========================================================================*/
+
+/*===== Work Section=====*/
+
+.work-section{
+    background-image: url(../image/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*===== Work Section Image =====*/
+
+#first-image{
+    margin-left: 10%;
+}
+
+.work-image{
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.work-image img{
+    width: 100%;
+}
+
+
+/*========================================================================*/
+
+/*===== Testimonial Section=====*/
+
+.testimonial-section{
+    background-image: url(../image/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+
+/*===== Testimonial Section Content =====*/
+
+.client-name{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0;
+    margin:0;
+}
+
+.client-position{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    margin:0;
+}
+
+.client-experience{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 2% 26% 0 26%;
+    margin:0;
+}
+
+.contact{
+    background-image: linear-gradient(45deg, #FFCF19, #FFA530);
+    margin: 6% 28% 5% 28%;
+    border-radius: 10px;
+    padding: 10px 0px 35px 0px;
+}
+
+.contact-massage{
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding: 25px 0 20px 0;
+}
+
+.mail{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 0 0 23%;
+    padding: 0 0 20px 0;
+}
+
+
+/*========================================================================*/
+
+/*===== footer Section=====*/
+
+footer p{
+    text-align: center;
+    color: #7e7e7e;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 0 15px 0;
+}
