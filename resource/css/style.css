@@ -13,7 +13,7 @@ section{
 /*===== Common Style =====*/
 
 h1{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;   
     line-height: 60px;
 }
@@ -125,6 +125,7 @@ p{
 .experience-section{
     background-image: url(../image/footer-bg.png);
     background-repeat: no-repeat;
+    background-position: bottom left;
 }
 
 .experience-title{
