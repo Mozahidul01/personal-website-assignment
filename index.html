@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <!-- additional css -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+            <!-- CSS Style -->
     <link rel="stylesheet" href="resource/css/style.css">
     <title>Mozahidul Islam</title>
 </head>
@@ -13,16 +18,20 @@
 
 <Section class="top-section">
 
-    <div class="hero-content">
-        <h1>Hello I'm <br>
-            <span class="highlight">Mozahidul Islam</span></h1>
-        <P>I already learned the basic HTML and CSS. I can build any simple website. I can even teach my grandma how to make simple website. My goal is to build 3 websites and learn advanced topics.
-        </P>
-        <a class="hero-button" href="https://www.linkedin.com/in/mozahidul01/" target="_blank">Hire Me</a>
-    </div>
-
-    <div class="hero-image">
-        <img src="resource/image/profile-image-01.png" alt="hero-image">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="hero-content col-md-6">
+                <h1>Hello I'm <br>
+                    <span class="highlight">Mozahidul Islam</span></h1>
+                <P>I already learned the basic HTML and CSS. I can build any simple website. I can even teach my grandma how to make simple website. My goal is to build 3 websites and learn advanced topics.
+                </P>
+                <a class="hero-button" href="https://www.linkedin.com/in/mozahidul01/" target="_blank">Hire Me</a>
+            </div>
+        
+            <div class="hero-image d-flex align-items-center col-md-6">
+                <img class="d-block w-100" src="resource/image/profile-image-01.png" alt="hero-image">
+            </div>
+        </div>
     </div>
 
 </Section>
@@ -31,14 +40,18 @@
 
 <section class="biodata-section">
 
-    <div class="biodata-image">
-        <img src="resource/image/profile-image-02.png" alt="dream-image">
-    </div>
-
-    <div class="biodata-content">
-        <h2>Biodata</h2>
-        <p>I am a web developer based in Dhaka, Bangladesh. I have passion for web design & development. I like simple,fast & secure website.I have some skill in HTML, CSS, Bootstrap, Java Script, React, Node.js, MongoDB, WordPress, PHP & MySQL. As a web developer I focused on customer satisfaction, I manage all aspects of Web development from concept to requirements definition, design, development, launch, maintenance and user support. I enjoy the client-facing role and working closely with team members to produce high-quality deliverables.</p>
-        <a class="biodata-button" target="_blank" href="https://www.linkedin.com/in/mozahidul01/">DOWNLOAD RESUME</a>
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="biodata-image d-flex align-items-center col-md-6">
+                <img class="d-block w-100" src="resource/image/profile-image-02.png" alt="dream-image">
+            </div>
+        
+            <div class="biodata-content col-md-6">
+                <h2>Biodata</h2>
+                <p>I am a web developer based in Dhaka, Bangladesh. I have passion for web design & development. I like simple,fast & secure website.I have some skill in HTML, CSS, Bootstrap, Java Script, React, Node.js, MongoDB, WordPress, PHP & MySQL. As a web developer I focused on customer satisfaction, I manage all aspects of Web development from concept to requirements definition, design, development, launch, maintenance and user support. I enjoy the client-facing role and working closely with team members to produce high-quality deliverables.</p>
+                <a class="biodata-button" target="_blank" href="https://www.linkedin.com/in/mozahidul01/">DOWNLOAD RESUME</a>
+            </div>
+        </div>
     </div>
 
 </section>
@@ -48,17 +61,37 @@
 
 <section class="experience-section">
 
-    <h3>My Experiences</h3>
-    <div id="full-stack" class="experience-content">
-        <h5>Full Stack Web Developer</h5>
-        <h6 class="orange-highlight">2021 - Present | Pro level Web Dev</h6>
-        <p class="experience-details">I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
-    </div>
+    <div class="container">
 
-    <div id="baby-web" class="experience-content">
-        <h5>Baby Web Developer</h5>
-        <h6 class="orange-highlight">2020-2021 | Programming Hero Learner</h6>
-        <p class="experience-details">They didn't offer me a job. But I made myself as a remove web developer. I made their website and showed it to them. They liked it. And uploaded the content. It was fun working at Programming Hero.</p>
+        <h3 class="experience-title">My Experiences</h3>
+
+        <div class="row d-flex align-items-center justify-content-around">
+
+            <div class="row">
+
+                <div class="experience-content col-sm-6">
+                  <div id="full-stack" class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Full Stack Web Developer</h5>
+                      <h6 class="orange-highlight">2021 - Present | Pro level Web Dev</h6>
+                      <p class="card-text">I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="experience-content col-sm-6">
+                  <div id="baby-web" class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Baby Web Developer</h5>
+                      <h6 class="orange-highlight">2020-2021 | Programming Hero Learner</h6>
+                      <p class="card-text">They didn't offer me a job. But I made myself as a remote web developer. I made their website and showed it to them. They liked it. And uploaded the content. It was fun working at Programming Hero.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+        </div>
     </div>
 
 </section>

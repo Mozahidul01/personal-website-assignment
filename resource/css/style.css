@@ -6,8 +6,8 @@ body{
 }
 
 section{
-    height: 450px;
-    padding-bottom: 120px;
+    display: block;
+    padding: 20px 5px 50px 5px;
 }
 
 /*===== Common Style =====*/
@@ -16,46 +16,40 @@ h1{
     font-size: 50px;
     font-weight: 600;   
     line-height: 60px;
-    margin: 150px 0px 0px 0px;
 }
 
 h2{
     font-size: 40px;
     font-weight: 700;
-    margin: 70px 0px 0px 0px;   
 }
 
 h3{
     font-size: 40px;
     font-weight: 700; 
-    margin: 70px 0px 30px 0px;
     text-align: center;
 }
 
 h4{
     font-size: 40px;
     font-weight: 700; 
-    margin: 70px 0px 0px 0px;
     text-align: center;
 }
 
 h5{
     font-size: 35px;
     font-weight: 600;
-    margin: 35px 0px 10px 0px;
 }
 
 h6{
     font-size: 20px;
     font-weight: 600;
-    margin: 10px 0px 25px 0px;
 }
 
 p{
     font-size: 16px;
     font-weight: 500;
     color: #9b9b9b;
-    padding: 25px 20px 25px 0px;
+    padding: 10px;
 }
 
 
@@ -70,13 +64,6 @@ p{
 }
 
 /*===== Hero Section Content =====*/
-
-.hero-content{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-}
 
 .highlight{
     color: #6255DB;
@@ -97,23 +84,10 @@ p{
 
 .hero-button:hover{
     background-image: linear-gradient(45deg, #0BF0C7, #35A2F2); 
+    text-decoration: none;
+    color: #000000;
 }
 
-/*===== Hero Section Image =====*/
-
-.hero-image{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-top: 3%;
-}
-
-.hero-image img{
-    width: 100%;
-}
-
-
-/*========================================================================*/
 
 /*===== Biography Section=====*/
 
@@ -123,29 +97,7 @@ p{
     background-position: bottom right;
 }
 
-/*===== Biography Section Image =====*/
-
-
-.biodata-image{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-top: 3%;
-}
-
-.biodata-image img{
-    width: 100%;
-}
-
 /*===== Biography Section Content =====*/
-
-.biodata-content{
-    width: 40%;
-    float: left;
-    padding-left: 6%;
-    padding-top: 3.5%;
-    vertical-align: middle;
-}
 
 .biodata-button{
     color: #ffffff;
@@ -161,6 +113,8 @@ p{
 
 .biodata-button:hover{
     background-image: linear-gradient(45deg, #FFA92E, #FFCD1A);
+    text-decoration: none;
+    color: #000000;
 }
 
 
@@ -173,15 +127,16 @@ p{
     background-repeat: no-repeat;
 }
 
-.experience-content{
-    width: 38%;
-    float: left;
-    margin: 3% 0 0 6%;
-    padding: 0px 15px 0px 20px;
+.experience-title{
+    margin: 20px 0px 35px 0px;
+}
+
+.card{
     box-shadow: 10px 10px 40px #A9A9A9;
     border-radius: 5px;
-    height: 300px;
     background-color: #f9fdfb;
+    margin:5px 5px 15px 5px;
+    display: block;
 }
 
 .experience-details{
@@ -203,6 +158,7 @@ p{
     border-left: 6px solid;
     border-image: linear-gradient(180deg, #0000FF, #00FFFF);
     border-image-slice: 1;
+    padding-bottom: 9%;
 }
 
 
