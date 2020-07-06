@@ -120,16 +120,40 @@ p{
 
 /*========================================================================*/
 
+/*===== Work Section=====*/
+
+.work-section{
+    background-image: url(../image/latest-work-bg.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0 80px 0;
+}
+
+.work-title{
+    margin: 25px 0px 45px 0px;   
+}
+
+.image-border{
+    border: 3px solid;
+    border-image: linear-gradient(180deg, #FFA92E, #FFCD1A);
+    border-image-slice: 1;
+}
+
+.work-image{
+    margin-bottom: 20px;
+}
+
+
+/*========================================================================*/
+
 /*===== Experience Section=====*/
 
 .experience-section{
-    background-image: url(../image/footer-bg.png);
+    background-image: url(../image/biography-bg.png);
     background-repeat: no-repeat;
-    background-position: bottom left;
-}
-
-.experience-title{
-    margin: 20px 0px 35px 0px;
+    background-position: bottom right;
+    padding: 50px 0 80px 0;
 }
 
 .card{
@@ -139,6 +163,11 @@ p{
     margin:5px 5px 15px 5px;
     display: block;
 }
+
+.experience-title{
+    margin: 20px 0px 35px 0px;
+}
+
 
 .experience-details{
     padding: 5px 2px 0px 0px;
@@ -160,36 +189,6 @@ p{
     border-image: linear-gradient(180deg, #0000FF, #00FFFF);
     border-image-slice: 1;
     padding-bottom: 9%;
-}
-
-
-
-/*========================================================================*/
-
-/*===== Work Section=====*/
-
-.work-section{
-    background-image: url(../image/latest-work-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/*===== Work Section Image =====*/
-
-#first-image{
-    margin-left: 10%;
-}
-
-.work-image{
-    width: 25%;
-    float: left;
-    margin-left: 3%;
-    margin-top: 2%;
-}
-
-.work-image img{
-    width: 100%;
 }
 
 
@@ -221,32 +220,23 @@ p{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    padding: 10px 0px 0px 0px;
-    margin:0;
-}
 
 .client-experience{
     color: #000000;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
-    padding: 2% 26% 0 26%;
-    margin:0;
 }
 
 .contact{
     background-image: linear-gradient(45deg, #FFCF19, #FFA530);
-    margin: 6% 28% 5% 28%;
     border-radius: 10px;
-    padding: 10px 0px 35px 0px;
 }
 
 .contact-massage{
     color: #ffffff;
     font-size: 16px;
     text-align: center;
-    margin: 0;
-    padding: 25px 0 20px 0;
 }
 
 .mail{
@@ -255,9 +245,6 @@ p{
     font-weight: 500;
     text-align: center;
     text-decoration: none;
-    margin: 0 0 0 23%;
-    padding: 0 0 20px 0;
-}
 
 
 /*========================================================================*/
