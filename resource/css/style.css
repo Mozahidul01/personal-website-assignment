@@ -64,6 +64,7 @@ p{
 .top-section{
     background-image: url(../image/header-bg.png);
     background-repeat: no-repeat;
+    padding-bottom: 100px;
 }
 
 /*===== Hero Section Content =====*/
